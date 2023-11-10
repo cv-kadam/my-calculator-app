@@ -1,0 +1,15 @@
+.background-gradient {
+  background: linear-gradient(to right, #1e90ff, #2de614);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.newdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers the content horizontally */
+}

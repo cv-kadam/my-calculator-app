@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.background-gradient {
+  background: linear-gradient(to right, #1e90ff, #2de614);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.con{
+  background: linear-gradient(to bottom, #221b37, #534a84);
+  height: 600px;
+  width: 330px;
+  border-radius: 10px;
+  margin-top: 20%;
+  padding: 2px;
+}
+
+.btncon{
+  height: 300px;
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #393357;
+ 
+}
+.num{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width:75%;
+}
+.num1{
+  display:flex ;
+  justify-content: space-evenly;
+  height:100%;
+}
+
+.exp{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.btns{
+  height:74px;
+  width: 80px;
+  background: transparent;
+  border-radius: 6px;
+  color:#fff;
+  font-size: 20px;
+  border: 1px solid #534a84;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inputval{
+  height: 86px;
+  width: 96%;
+  margin-top: 40px;
+  border-radius: 6px;
+  color:#fff;
+  font-size: 40px;
+  background: transparent;
+  text-align: end;
+  border: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.res{
+  height: 80px;
+  width: 96%;
+  margin-top: 20px;
+  border-radius: 6px;
+  color:#fff;
+  font-size: 40px;
+  background: transparent;
+  border: 0;
+  text-align: end;
+  margin-bottom: 70px;
+}
